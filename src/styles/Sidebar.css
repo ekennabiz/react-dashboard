@@ -1,0 +1,67 @@
+.sidebar {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #111827;
+  color: white;
+}
+
+.logo {
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  color: #d1d5db;
+  transition: 0.2s;
+}
+
+.menu-item:hover {
+  background: #1f2937;
+  color: white;
+}
+
+.menu-item.active {
+  background: #374151;
+  color: white;
+}
+
+.menu-item {
+  transition: all 0.2s ease;
+}
+
+.menu-item:active {
+  transform: scale(0.98);
+}
+
+.menu-item {
+  position: relative;
+}
+
+/* small active indicator */
+.active-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #60a5fa;
+
+  position: absolute;
+  right: 12px;
+}
