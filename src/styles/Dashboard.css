@@ -89,3 +89,61 @@
   gap: 20px;
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    height: auto;
+    padding: 15px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .sidebar {
+    width: 200px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-item {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+}
