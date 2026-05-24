@@ -1,0 +1,25 @@
+.page {
+  width: 100%;
+}
+
+.chart-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.bar {
+  flex: 1;
+  background: #3b82f6;
+  border-radius: 6px;
+}

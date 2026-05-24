@@ -1,18 +1,6 @@
-export const dashboardStats = [
-  {
-    title: "Revenue",
-    value: "$24,500"
-  },
-  {
-    title: "Customers",
-    value: "1,248"
-  },
-  {
-    title: "Orders",
-    value: "367"
-  },
-  {
-    title: "Profit",
-    value: "$8,920"
-  }
-];
+export const dashboardData = {
+  revenue: "$24,500",
+  customers: "1,248",
+  orders: "367",
+  profit: "$8,920"
+};

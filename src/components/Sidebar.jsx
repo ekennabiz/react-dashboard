@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "../styles/Sidebar.css";
 
 import {
@@ -32,7 +31,6 @@ function Sidebar() {
       <ul className="menu">
         {menu.map((item) => {
           const Icon = item.icon;
-
           const isActive = location.pathname === item.path;
 
           return (

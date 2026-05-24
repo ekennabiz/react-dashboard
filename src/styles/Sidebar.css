@@ -65,3 +65,19 @@
   position: absolute;
   right: 12px;
 }
+
+.menu-item {
+  transition: all 0.2s ease;
+  transform: translateX(0);
+}
+
+.menu-item:hover {
+  transform: translateX(4px);
+}
+
+.menu-item.active {
+  background: #374151;
+  color: white;
+  transform: translateX(6px);
+  position: relative;
+}
